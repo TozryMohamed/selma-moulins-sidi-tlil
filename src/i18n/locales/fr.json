@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "Notre entreprise",
+    "products": "Nos produits",
+    "process": "Notre activité",
+    "quality": "Qualité",
+    "contact": "Contact",
+    "cta": "Nous contacter"
+  },
+  "hero": {
+    "title": "Société des Moulins Sidi Tlil",
+    "subtitle": "La transformation des céréales au service de la qualité.",
+    "text": "Une entreprise agroalimentaire tunisienne spécialisée dans la transformation des céréales et la production de farine, semoule et aliments pour animaux.",
+    "ctaPrimary": "Découvrir notre entreprise",
+    "ctaSecondary": "Nos produits",
+    "scroll": "Découvrir"
+  },
+  "about": {
+    "eyebrow": "Qui sommes-nous ?",
+    "title": "Une entreprise agroalimentaire tunisienne, enracinée à Thélepte",
+    "p1": "La Société des Moulins Sidi Tlil, connue sous le nom de SELMA, est implantée à Thélepte, dans le gouvernorat de Kasserine, au cœur d'une région tunisienne historiquement liée à la culture des céréales.",
+    "p2": "Notre activité s'appuie sur un savoir-faire industriel dédié à la transformation des céréales, avec un objectif constant : offrir des produits de qualité, issus d'un processus maîtrisé, de la réception de la matière première jusqu'au produit fini.",
+    "p3": "Chaque étape de notre production reflète notre engagement envers la qualité, la rigueur et le développement continu de notre outil industriel.",
+    "stat1": "100% Tunisienne",
+    "stat2": "Secteur agroalimentaire",
+    "stat3": "Transformation des céréales",
+    "stat4": "Thélepte – Kasserine"
+  },
+  "products": {
+    "eyebrow": "Ce que nous produisons",
+    "title": "Nos produits",
+    "text": "Issus de la transformation des céréales, nos produits répondent aux besoins de l'alimentation humaine et animale.",
+    "learnMore": "En savoir plus",
+    "items": {
+      "flour": {
+        "title": "Farine",
+        "text": "Issue de la mouture du blé, notre farine est produite dans le respect d'un processus de transformation rigoureux, destinée aux usages de la boulangerie et de l'alimentation."
+      },
+      "semolina": {
+        "title": "Semoule",
+        "text": "Notre semoule, obtenue par la transformation des céréales, est destinée à différents usages alimentaires traditionnels et industriels."
+      },
+      "feed": {
+        "title": "Aliments pour animaux",
+        "text": "Nous produisons également des aliments destinés au bétail, valorisant les céréales dans une logique de production complète et responsable."
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Notre activité",
+    "title": "De la céréale au produit fini",
+    "text": "Un processus industriel structuré, représentatif de notre manière de transformer la céréale à chaque étape.",
+    "steps": {
+      "s1": { "title": "Sélection des céréales", "text": "Choix rigoureux de la matière première céréalière." },
+      "s2": { "title": "Réception et contrôle", "text": "Réception des céréales et vérification de leur conformité." },
+      "s3": { "title": "Transformation", "text": "Mouture et traitement industriel des céréales." },
+      "s4": { "title": "Production", "text": "Fabrication de la farine, de la semoule et des aliments pour animaux." },
+      "s5": { "title": "Conditionnement et distribution", "text": "Emballage des produits finis et mise à disposition." }
+    },
+    "note": "Représentation générale de notre processus industriel."
+  },
+  "quality": {
+    "eyebrow": "Qualité",
+    "title": "Notre engagement pour la qualité",
+    "text": "La qualité guide chacune de nos décisions industrielles, de la sélection des céréales à la livraison du produit fini.",
+    "items": {
+      "quality": { "title": "Qualité", "text": "Une exigence constante sur l'ensemble de notre production." },
+      "hygiene": { "title": "Hygiène", "text": "Des pratiques rigoureuses tout au long du processus." },
+      "safety": { "title": "Sécurité", "text": "Un environnement de production sécurisé et maîtrisé." },
+      "control": { "title": "Contrôle", "text": "Une vigilance appliquée à chaque étape de transformation." },
+      "regularity": { "title": "Régularité", "text": "Une constance recherchée dans la qualité de nos produits." },
+      "standards": { "title": "Respect des normes", "text": "Une production conforme aux exigences du secteur." }
+    }
+  },
+  "values": {
+    "eyebrow": "Ce qui nous anime",
+    "title": "Nos valeurs",
+    "items": {
+      "quality": { "title": "Qualité", "text": "Nous accordons une importance particulière à la qualité de nos produits." },
+      "reliability": { "title": "Fiabilité", "text": "Une entreprise engagée auprès de ses partenaires et clients." },
+      "expertise": { "title": "Savoir-faire", "text": "Une activité fondée sur la transformation et la valorisation des céréales." },
+      "commitment": { "title": "Engagement", "text": "Un engagement continu pour améliorer nos produits et notre activité." }
+    }
+  },
+  "industry": {
+    "eyebrow": "Notre outil industriel",
+    "title": "Une industrie au service de la céréale",
+    "text": "Silos, machines de mouture et lignes de production : notre infrastructure industrielle est pensée pour transformer la céréale avec rigueur, à chaque étape."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contactez-nous",
+    "text": "Une question, une demande d'information ? Notre équipe reste à votre écoute.",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Téléphone",
+    "faxLabel": "Fax",
+    "emailLabel": "Email",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "success": "Votre message a été préparé. Notre équipe vous contactera prochainement.",
+      "namePlaceholder": "Votre nom complet",
+      "emailPlaceholder": "vous@exemple.com",
+      "phonePlaceholder": "XX XXX XXX",
+      "subjectPlaceholder": "Objet de votre message",
+      "messagePlaceholder": "Écrivez votre message ici…",
+      "errorRequired": "Ce champ est requis",
+      "errorEmail": "Adresse email invalide"
+    }
+  },
+"footer": {
+    "tagline": "SELMA Moulins Sidi Tlil - Transformation des céréales depuis 1985",
+    "linksTitle": "Navigation",
+    "contactTitle": "Contact",
+    "rights": "© 2026 SELMA Moulins Sidi Tlil. Tous droits réservés."
+  }
+}

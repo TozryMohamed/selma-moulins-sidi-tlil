@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-indigo-950 font-body antialiased;
+}
+
+[dir='rtl'] body {
+  @apply font-arabic;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+[dir='rtl'] h1,
+[dir='rtl'] h2,
+[dir='rtl'] h3,
+[dir='rtl'] h4,
+[dir='rtl'] .font-display {
+  font-family: 'Cairo', sans-serif;
+}
+
+::selection {
+  background-color: #E3AC3D;
+  color: #061B32;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-2 text-sm font-semibold tracking-[0.2em] uppercase text-wheat-700;
+}
+
+[dir='rtl'] .eyebrow {
+  @apply tracking-normal;
+}
+
+.section-pad {
+  @apply px-6 sm:px-10 lg:px-16;
+}
+
+.container-max {
+  @apply max-w-7xl mx-auto;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-wheat-500 px-7 py-3.5 text-sm font-semibold text-indigo-950 shadow-soft transition-all duration-300 hover:bg-wheat-600 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wheat-700;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:bg-white/20 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-indigo-900/20 px-7 py-3.5 text-sm font-semibold text-indigo-900 transition-all duration-300 hover:border-indigo-900 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-900;
+}
+
+.card {
+  @apply rounded-xl2 bg-white shadow-card ring-1 ring-indigo-950/5;
+}
