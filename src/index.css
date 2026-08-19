@@ -76,3 +76,19 @@ h1, h2, h3, h4, .font-display {
 .card {
   @apply rounded-xl2 bg-white shadow-card ring-1 ring-indigo-950/5;
 }
+
+
+
+/* Ajoutez dans votre index.css si besoin */
+
+:root {
+  --sidebar-bg-start: #1e1b4b;  /* indigo-950 */
+  --sidebar-bg-mid: #312e81;    /* indigo-900 */
+  --sidebar-bg-end: #4338ca;    /* indigo-700 */
+  --sidebar-text: #ffffff;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.1);
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-submenu-bg: rgba(255, 255, 255, 0.08);
+  --sidebar-cta-bg: #b8860b;    /* wheat-500 */
+  --sidebar-cta-text: #1e1b4b;  /* indigo-950 */
+}

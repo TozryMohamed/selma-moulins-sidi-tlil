@@ -1,4 +1,3 @@
-
 import { useTranslation } from 'react-i18next'
 import { Phone, MapPin, Mail } from 'lucide-react'
 import Logo from '../Logo.jsx'
@@ -17,14 +16,16 @@ export default function Footer() {
   const isArabic = i18n.language?.startsWith('ar')
 
   return (
-    <footer className="section-pad bg-indigo-950 pt-16 pb-8 text-white">
-      <div className={`container-max grid gap-12 border-b border-white/10 pb-12 sm:grid-cols-2 lg:grid-cols-4 ${isArabic ? 'rtl' : ''}`}>
+    <footer className="section-pad bg-indigo-950 pt-12 sm:pt-16 pb-6 sm:pb-8 text-white">
+      <div className={`container-max grid gap-8 sm:gap-12 border-b border-white/10 pb-8 sm:pb-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ${isArabic ? 'rtl' : ''}`}>
         
         {/* Section Logo et tagline */}
         <div className="sm:col-span-2 lg:col-span-2">
-          <Logo light />
-          <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">{t('footer.tagline')}</p>
-          <p className="mt-4 text-sm font-medium text-white/70">
+          <Logo light size="md" />
+          <p className="mt-4 sm:mt-5 max-w-xs text-sm leading-relaxed text-white/60">
+            {t('footer.tagline')}
+          </p>
+          <p className="mt-3 sm:mt-4 text-sm font-medium text-white/70">
             {isArabic ? CONTACT_INFO.companyNameAr : CONTACT_INFO.companyName}
           </p>
           <p className="text-sm text-white/50">
@@ -32,12 +33,12 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Section Navigation - التصنيف */}
+        {/* Section Navigation */}
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-wheat-300">
+          <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-wheat-300">
             {t('footer.linksTitle')}
           </p>
-          <ul className="mt-4 space-y-3">
+          <ul className="mt-3 sm:mt-4 space-y-2 sm:space-y-3">
             {LINKS.map((link) => (
               <li key={link.key}>
                 <a href={link.href} className="text-sm text-white/65 transition-colors hover:text-white">
@@ -48,44 +49,44 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Section Contact - الاتصال */}
+        {/* Section Contact */}
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-wheat-300">
+          <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-wheat-300">
             {t('footer.contactTitle')}
           </p>
-          <div className="mt-4 space-y-3">
+          <div className="mt-3 sm:mt-4 space-y-2 sm:space-y-3">
             {/* Téléphone 1 */}
             <a 
               href={CONTACT_INFO.phoneHref} 
-              className={`flex items-center gap-2.5 text-sm text-white/65 hover:text-white ${isArabic ? 'flex-row-reverse' : ''}`}
+              className={`flex items-center gap-2 sm:gap-2.5 text-sm text-white/65 hover:text-white ${isArabic ? 'flex-row-reverse' : ''}`}
               dir="ltr"
             >
-              <Phone size={15} className="shrink-0" />
-              <span>{CONTACT_INFO.phone}</span>
+              <Phone size={13} className="sm:size-15 shrink-0" />
+              <span className="text-xs sm:text-sm">{CONTACT_INFO.phone}</span>
             </a>
             
             {/* Téléphone 2 */}
             <a 
               href={CONTACT_INFO.phoneHref2} 
-              className={`flex items-center gap-2.5 text-sm text-white/65 hover:text-white ${isArabic ? 'flex-row-reverse' : ''}`}
+              className={`flex items-center gap-2 sm:gap-2.5 text-sm text-white/65 hover:text-white ${isArabic ? 'flex-row-reverse' : ''}`}
               dir="ltr"
             >
-              <Phone size={15} className="shrink-0" />
-              <span>{CONTACT_INFO.phone2}</span>
+              <Phone size={13} className="sm:size-15 shrink-0" />
+              <span className="text-xs sm:text-sm">{CONTACT_INFO.phone2}</span>
             </a>
             
             {/* Fax */}
-            <p className={`flex items-center gap-2.5 text-sm text-white/65 ${isArabic ? 'flex-row-reverse' : ''}`} dir="ltr">
+            <p className={`flex items-center gap-2 sm:gap-2.5 text-sm text-white/65 ${isArabic ? 'flex-row-reverse' : ''}`} dir="ltr">
               <svg 
-                width="15" 
-                height="15" 
+                width="13" 
+                height="13" 
+                className="sm:w-15 sm:h-15 shrink-0"
                 viewBox="0 0 24 24" 
                 fill="none" 
                 stroke="currentColor" 
                 strokeWidth="2" 
                 strokeLinecap="round" 
                 strokeLinejoin="round"
-                className="shrink-0"
               >
                 <rect x="2" y="8" width="20" height="14" rx="2" ry="2" />
                 <path d="M8 8V4a2 2 0 012-2h4a2 2 0 012 2v4" />
@@ -93,24 +94,24 @@ export default function Footer() {
                 <line x1="6" y1="18" x2="18" y2="18" />
                 <line x1="6" y1="10" x2="18" y2="10" />
               </svg>
-              <span>{CONTACT_INFO.fax}</span>
+              <span className="text-xs sm:text-sm">{CONTACT_INFO.fax}</span>
             </p>
             
             {/* Email */}
             <a 
               href={`mailto:${CONTACT_INFO.email}`} 
-              className={`flex items-center gap-2.5 text-sm text-white/65 hover:text-white ${isArabic ? 'flex-row-reverse' : ''}`}
+              className={`flex items-center gap-2 sm:gap-2.5 text-sm text-white/65 hover:text-white ${isArabic ? 'flex-row-reverse' : ''}`}
               dir="ltr"
             >
-              <Mail size={15} className="shrink-0" />
-              <span>{CONTACT_INFO.email}</span>
+              <Mail size={13} className="sm:size-15 shrink-0" />
+              <span className="text-xs sm:text-sm break-all">{CONTACT_INFO.email}</span>
             </a>
           </div>
         </div>
       </div>
 
       {/* Copyright */}
-      <p className={`container-max pt-6 text-center text-xs text-white/40 ${isArabic ? 'rtl' : ''}`}>
+      <p className={`container-max pt-4 sm:pt-6 text-center text-[10px] sm:text-xs text-white/40 ${isArabic ? 'rtl' : ''}`}>
         {t('footer.rights')}
       </p>
     </footer>

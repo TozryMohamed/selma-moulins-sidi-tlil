@@ -1,12 +1,15 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "Notre entreprise",
-    "products": "Nos produits",
-    "process": "Notre activité",
-    "quality": "Qualité",
+    "about": "À propos",
     "contact": "Contact",
-    "cta": "Nous contacter"
+    "cta": "Nous contacter",
+    "sub": {
+      "entreprise": "Notre entreprise",
+      "products": "Nos produits",
+      "process": "Notre activité",
+      "quality": "Qualité"
+    }
   },
   "hero": {
     "title": "Société des Moulins Sidi Tlil",
@@ -52,11 +55,26 @@
     "title": "De la céréale au produit fini",
     "text": "Un processus industriel structuré, représentatif de notre manière de transformer la céréale à chaque étape.",
     "steps": {
-      "s1": { "title": "Sélection des céréales", "text": "Choix rigoureux de la matière première céréalière." },
-      "s2": { "title": "Réception et contrôle", "text": "Réception des céréales et vérification de leur conformité." },
-      "s3": { "title": "Transformation", "text": "Mouture et traitement industriel des céréales." },
-      "s4": { "title": "Production", "text": "Fabrication de la farine, de la semoule et des aliments pour animaux." },
-      "s5": { "title": "Conditionnement et distribution", "text": "Emballage des produits finis et mise à disposition." }
+      "s1": {
+        "title": "Sélection des céréales",
+        "text": "Choix rigoureux de la matière première céréalière."
+      },
+      "s2": {
+        "title": "Réception et contrôle",
+        "text": "Réception des céréales et vérification de leur conformité."
+      },
+      "s3": {
+        "title": "Transformation",
+        "text": "Mouture et traitement industriel des céréales."
+      },
+      "s4": {
+        "title": "Production",
+        "text": "Fabrication de la farine, de la semoule et des aliments pour animaux."
+      },
+      "s5": {
+        "title": "Conditionnement et distribution",
+        "text": "Emballage des produits finis et mise à disposition."
+      }
     },
     "note": "Représentation générale de notre processus industriel."
   },
@@ -65,22 +83,52 @@
     "title": "Notre engagement pour la qualité",
     "text": "La qualité guide chacune de nos décisions industrielles, de la sélection des céréales à la livraison du produit fini.",
     "items": {
-      "quality": { "title": "Qualité", "text": "Une exigence constante sur l'ensemble de notre production." },
-      "hygiene": { "title": "Hygiène", "text": "Des pratiques rigoureuses tout au long du processus." },
-      "safety": { "title": "Sécurité", "text": "Un environnement de production sécurisé et maîtrisé." },
-      "control": { "title": "Contrôle", "text": "Une vigilance appliquée à chaque étape de transformation." },
-      "regularity": { "title": "Régularité", "text": "Une constance recherchée dans la qualité de nos produits." },
-      "standards": { "title": "Respect des normes", "text": "Une production conforme aux exigences du secteur." }
+      "quality": {
+        "title": "Qualité",
+        "text": "Une exigence constante sur l'ensemble de notre production."
+      },
+      "hygiene": {
+        "title": "Hygiène",
+        "text": "Des pratiques rigoureuses tout au long du processus."
+      },
+      "safety": {
+        "title": "Sécurité",
+        "text": "Un environnement de production sécurisé et maîtrisé."
+      },
+      "control": {
+        "title": "Contrôle",
+        "text": "Une vigilance appliquée à chaque étape de transformation."
+      },
+      "regularity": {
+        "title": "Régularité",
+        "text": "Une constance recherchée dans la qualité de nos produits."
+      },
+      "standards": {
+        "title": "Respect des normes",
+        "text": "Une production conforme aux exigences du secteur."
+      }
     }
   },
   "values": {
     "eyebrow": "Ce qui nous anime",
     "title": "Nos valeurs",
     "items": {
-      "quality": { "title": "Qualité", "text": "Nous accordons une importance particulière à la qualité de nos produits." },
-      "reliability": { "title": "Fiabilité", "text": "Une entreprise engagée auprès de ses partenaires et clients." },
-      "expertise": { "title": "Savoir-faire", "text": "Une activité fondée sur la transformation et la valorisation des céréales." },
-      "commitment": { "title": "Engagement", "text": "Un engagement continu pour améliorer nos produits et notre activité." }
+      "quality": {
+        "title": "Qualité",
+        "text": "Nous accordons une importance particulière à la qualité de nos produits."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "text": "Une entreprise engagée auprès de ses partenaires et clients."
+      },
+      "expertise": {
+        "title": "Savoir-faire",
+        "text": "Une activité fondée sur la transformation et la valorisation des céréales."
+      },
+      "commitment": {
+        "title": "Engagement",
+        "text": "Un engagement continu pour améliorer nos produits et notre activité."
+      }
     }
   },
   "industry": {
@@ -114,7 +162,7 @@
       "errorEmail": "Adresse email invalide"
     }
   },
-"footer": {
+  "footer": {
     "tagline": "SELMA Moulins Sidi Tlil - Transformation des céréales depuis 1985",
     "linksTitle": "Navigation",
     "contactTitle": "Contact",
