@@ -6,8 +6,6 @@ import { CONTACT_INFO } from '../../data/siteData'
 const LINKS = [
   { key: 'home', href: '#accueil' },
   { key: 'about', href: '#entreprise' },
-  { key: 'products', href: '#produits' },
-  { key: 'quality', href: '#qualite' },
   { key: 'contact', href: '#contact' },
 ]
 
